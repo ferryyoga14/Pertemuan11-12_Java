@@ -1,0 +1,38 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package lat4_percobaan5;
+
+/**
+ *
+ * @author user
+ *  NIM  : A2.1900069
+ *  Nama : Ferry Yoga Perkasa
+ *  Kelas: TI-1A
+ *  Percobaan 5 Penggunaan Operator Logika dan Boolean OR:
+ */
+public class Lat4_percobaan5 {
+
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+      
+int i = 0;
+int j = 10;
+boolean test = false;
+//demonstrasi ||
+test = (i < 10) || (j++ > 9);
+System.out.println(i);
+System.out.println(j);
+System.out.println(test);
+//demonstrasi |
+test = (i < 10) | (j++ > 9);
+System.out.println(i);
+System.out.println(j);
+System.out.println(test);
+    }
+    
+}
